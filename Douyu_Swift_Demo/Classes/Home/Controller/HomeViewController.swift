@@ -28,31 +28,24 @@ extension HomeViewController{
         setUpNavigationBar()//设置导航栏
     }
     private func setUpNavigationBar(){
+        
         //1.设置左边的Item
-        let btn = UIButton.init()
-        btn.setImage(UIImage.init(named: "logo"), for: .normal)
-        btn.sizeToFit()
-        navigationItem.leftBarButtonItem = UIBarButtonItem.init(customView: btn)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem.init(imageName: "logo")
+        
         //2.设置右侧的Item
-        let historyBtn = UIButton.init()
-        historyBtn.setImage(UIImage.init(named: "image_my_history"), for: .normal)
-        historyBtn.setImage(UIImage.init(named: "Image_my_history_click"), for: .highlighted)
-        historyBtn.sizeToFit()
-        let searchBtn = UIButton.init()
-        searchBtn.setImage(UIImage.init(named: "btn_search"), for: .normal)
-        searchBtn.setImage(UIImage.init(named: "btn_search_clicked"), for: .highlighted)
-        searchBtn.sizeToFit()
-        let qrcodeBtn = UIButton.init()
-        qrcodeBtn.setImage(UIImage.init(named: "Image_scan"), for: .normal)
-        qrcodeBtn.setImage(UIImage.init(named: "Image_scan_click"), for: .highlighted)
-        qrcodeBtn.sizeToFit()
-        let historyItem = UIBarButtonItem.init(customView: historyBtn)
+        let size = CGSize.init(width: 40, height: 40)
         
-        let searchItem = UIBarButtonItem.init(customView: searchBtn)
         
-        let qrcodeItem = UIBarButtonItem.init(customView: qrcodeBtn)
+        let historyItem = UIBarButtonItem.init(imageName: "image_my_history", highImageName: "Image_my_history_click", size: size)
+        
+        let searchItem = UIBarButtonItem.init(imageName: "btn_search", highImageName: "btn_search_clicked", size: size)
+        
+        let qrcodeItem = UIBarButtonItem.init(imageName: "Image_scan", highImageName: "Image_scan_click", size: size)
         
         navigationItem.rightBarButtonItems = [historyItem,searchItem,qrcodeItem]
         
     }
+    
+    
 }

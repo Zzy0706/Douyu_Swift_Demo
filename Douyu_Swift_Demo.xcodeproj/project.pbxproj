@@ -13,6 +13,7 @@
 		7F9BFDAC1F60DA1B00EFB132 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BFDAB1F60DA1B00EFB132 /* Profile.storyboard */; };
 		7F9BFDB81F60EAB900EFB132 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDB51F60EAB900EFB132 /* MainViewController.swift */; };
 		7F9BFDBA1F60EB1500EFB132 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDB91F60EB1500EFB132 /* HomeViewController.swift */; };
+		7F9BFDBD1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */; };
 		7FC800171F5F89C70055B072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC800161F5F89C70055B072 /* AppDelegate.swift */; };
 		7FC8001C1F5F89C70055B072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8001A1F5F89C70055B072 /* Main.storyboard */; };
 		7FC8001E1F5F89C70055B072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8001D1F5F89C70055B072 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		7F9BFDAB1F60DA1B00EFB132 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		7F9BFDB51F60EAB900EFB132 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7F9BFDB91F60EB1500EFB132 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 		7FC800131F5F89C70055B072 /* Douyu_Swift_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douyu_Swift_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC800161F5F89C70055B072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC8001B1F5F89C70055B072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7F9BFDBB1F60F0C900EFB132 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		7FC8000A1F5F89C70055B072 = {
@@ -241,6 +251,7 @@
 		7FC8004A1F5F9C670055B072 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7F9BFDBB1F60F0C900EFB132 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -386,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9BFDBD1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift in Sources */,
 				7FC800171F5F89C70055B072 /* AppDelegate.swift in Sources */,
 				7F9BFDB81F60EAB900EFB132 /* MainViewController.swift in Sources */,
 				7F9BFDBA1F60EB1500EFB132 /* HomeViewController.swift in Sources */,
