@@ -8,11 +8,46 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+private let kTitleViewH : CGFloat = 40
 
+class HomeViewController: UIViewController {
+    //MARK:- 懒加载属性
+    fileprivate lazy var pageTitleView : PageTitleView = {[weak self] in
+        
+       let titleFrame = CGRect.init(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
+        
+       let titles = ["推荐","游戏","娱乐","趣味"]
+        
+       let titleView = PageTitleView.init(frame: titleFrame, titles: titles)
+       titleView.delegate = self
+       return titleView
+        
+    }()
+    fileprivate lazy var pageContentView : PageContentView={ [weak self] in
+        
+        let contentH = kScreenH - kStatusBarH - kNavigationBarH - kTitleViewH - kTabbar
+        let contentFrame = CGRect.init(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenW, height: contentH)
+        var childVcs = [UIViewController]()
+        childVcs.append(RecommendViewController())
+        
+        
+        for _ in 0..<4{
+            let vc = UIViewController.init()
+            vc.view.backgroundColor = UIColor.init(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
+            childVcs.append(vc)
+        }
+        let contentView : PageContentView = PageContentView.init(frame: contentFrame, childVcs: childVcs, parentViewController: self)
+       contentView.delagate = self
+        
+        return contentView
+    }()
+    //MARK:- 系统回调函数
     override func viewDidLoad() {
         super.viewDidLoad()
+        //1.设置UI界面
         setUpUI()
+        
+        
         
     }
  
@@ -24,10 +59,16 @@ class HomeViewController: UIViewController {
 }
 //MARK: 设置UI界面
 extension HomeViewController{
-     func setUpUI(){
+    fileprivate func setUpUI(){
+        automaticallyAdjustsScrollViewInsets = false//关闭UIScrollViewd的内边距调节
+        //1.设置导航栏
         setUpNavigationBar()//设置导航栏
+        //2.添加TitleView
+        view.addSubview(pageTitleView)
+        //3.添加contentview
+        view.addSubview(pageContentView)
     }
-    private func setUpNavigationBar(){
+    fileprivate func setUpNavigationBar(){
         
         //1.设置左边的Item
         
@@ -47,5 +88,19 @@ extension HomeViewController{
         
     }
     
+    
+}
+
+//MARK: 遵守PageTitleViewDelegate协议
+extension HomeViewController : PageTitleViewDelegate{
+    func pageTitleView(titleView: PageTitleView, selectedIndex index: Int) {
+        pageContentView.setCurrentIndex(currentIndex: index)
+    }
+}
+//MARK: 遵守PageContentViewDelegate协议
+extension HomeViewController : PageContentViewDelegate{
+    func pageContentView(contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        pageTitleView.setTitleWithProgress(progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    }
     
 }

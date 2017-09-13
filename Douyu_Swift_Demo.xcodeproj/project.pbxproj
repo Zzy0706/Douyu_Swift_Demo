@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79B092732D28037AA31BB505 /* Pods_Douyu_Swift_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9082127F2D1A1F6CAE19B0 /* Pods_Douyu_Swift_Demo.framework */; };
+		7F0CD2A81F6773A40022D43C /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CD2A61F6773A40022D43C /* CollectionHeaderView.swift */; };
+		7F0CD2A91F6773A40022D43C /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CD2A71F6773A40022D43C /* CollectionHeaderView.xib */; };
+		7F0CD2AC1F677B6E0022D43C /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CD2AA1F677B6E0022D43C /* CollectionNormalCell.swift */; };
+		7F0CD2AD1F677B6E0022D43C /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CD2AB1F677B6E0022D43C /* CollectionNormalCell.xib */; };
+		7F0CD2B01F6780640022D43C /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0CD2AE1F6780640022D43C /* CollectionPrettyCell.swift */; };
+		7F0CD2B11F6780640022D43C /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F0CD2AF1F6780640022D43C /* CollectionPrettyCell.xib */; };
+		7F4870AD1F662D680012D6B9 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4870AC1F662D680012D6B9 /* PageContentView.swift */; };
+		7F4870AF1F662F8C0012D6B9 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4870AE1F662F8C0012D6B9 /* UIColor_Extension.swift */; };
+		7F4870B11F667C0C0012D6B9 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4870B01F667C0C0012D6B9 /* RecommendViewController.swift */; };
 		7F9BFDA41F60D93200EFB132 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BFDA21F60D93200EFB132 /* Home.storyboard */; };
 		7F9BFDA71F60D97000EFB132 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BFDA51F60D97000EFB132 /* Live.storyboard */; };
 		7F9BFDAA1F60D9EB00EFB132 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9BFDA81F60D9EB00EFB132 /* Follow.storyboard */; };
@@ -14,12 +24,19 @@
 		7F9BFDB81F60EAB900EFB132 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDB51F60EAB900EFB132 /* MainViewController.swift */; };
 		7F9BFDBA1F60EB1500EFB132 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDB91F60EB1500EFB132 /* HomeViewController.swift */; };
 		7F9BFDBD1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */; };
+		7F9BFDBF1F60F7B900EFB132 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDBE1F60F7B900EFB132 /* PageTitleView.swift */; };
+		7F9BFDC11F60F9D500EFB132 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFDC01F60F9D500EFB132 /* Common.swift */; };
 		7FC800171F5F89C70055B072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC800161F5F89C70055B072 /* AppDelegate.swift */; };
 		7FC8001C1F5F89C70055B072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8001A1F5F89C70055B072 /* Main.storyboard */; };
 		7FC8001E1F5F89C70055B072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8001D1F5F89C70055B072 /* Assets.xcassets */; };
 		7FC800211F5F89C70055B072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8001F1F5F89C70055B072 /* LaunchScreen.storyboard */; };
 		7FC8002C1F5F89C70055B072 /* Douyu_Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC8002B1F5F89C70055B072 /* Douyu_Swift_DemoTests.swift */; };
 		7FC800371F5F89C70055B072 /* Douyu_Swift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC800361F5F89C70055B072 /* Douyu_Swift_DemoUITests.swift */; };
+		7FD28B3B1F67B46900190571 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD28B3A1F67B46900190571 /* NetWorkTools.swift */; };
+		7FD28B3E1F67C85700190571 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD28B3D1F67C85700190571 /* RecommendViewModel.swift */; };
+		7FD28B401F67CB4300190571 /* NSDate_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD28B3F1F67CB4300190571 /* NSDate_Extension.swift */; };
+		7FD28B421F67CF4600190571 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD28B411F67CF4600190571 /* AnchorGroup.swift */; };
+		7FD28B441F67D11D00190571 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD28B431F67D11D00190571 /* AnchorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +57,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C9082127F2D1A1F6CAE19B0 /* Pods_Douyu_Swift_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Douyu_Swift_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		430F32A72ABBC34C29017B84 /* Pods-Douyu_Swift_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu_Swift_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu_Swift_Demo/Pods-Douyu_Swift_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7F0CD2A61F6773A40022D43C /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		7F0CD2A71F6773A40022D43C /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		7F0CD2AA1F677B6E0022D43C /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		7F0CD2AB1F677B6E0022D43C /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		7F0CD2AE1F6780640022D43C /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		7F0CD2AF1F6780640022D43C /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		7F4870AC1F662D680012D6B9 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		7F4870AE1F662F8C0012D6B9 /* UIColor_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		7F4870B01F667C0C0012D6B9 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		7F9BFDA31F60D93200EFB132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu_Swift_Demo/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		7F9BFDA61F60D97000EFB132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu_Swift_Demo/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		7F9BFDA91F60D9EB00EFB132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu_Swift_Demo/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
@@ -47,6 +75,8 @@
 		7F9BFDB51F60EAB900EFB132 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7F9BFDB91F60EB1500EFB132 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
+		7F9BFDBE1F60F7B900EFB132 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		7F9BFDC01F60F9D500EFB132 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		7FC800131F5F89C70055B072 /* Douyu_Swift_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douyu_Swift_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC800161F5F89C70055B072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC8001B1F5F89C70055B072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +89,12 @@
 		7FC800321F5F89C70055B072 /* Douyu_Swift_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Douyu_Swift_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC800361F5F89C70055B072 /* Douyu_Swift_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douyu_Swift_DemoUITests.swift; sourceTree = "<group>"; };
 		7FC800381F5F89C70055B072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD28B3A1F67B46900190571 /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		7FD28B3D1F67C85700190571 /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		7FD28B3F1F67CB4300190571 /* NSDate_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate_Extension.swift; sourceTree = "<group>"; };
+		7FD28B411F67CF4600190571 /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		7FD28B431F67D11D00190571 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		88349EB0655FE8000455257A /* Pods-Douyu_Swift_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu_Swift_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu_Swift_Demo/Pods-Douyu_Swift_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B092732D28037AA31BB505 /* Pods_Douyu_Swift_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,10 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60F6945D42631A55610D6AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C9082127F2D1A1F6CAE19B0 /* Pods_Douyu_Swift_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F9BFDB11F60EA8700EFB132 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				7F9BFDB91F60EB1500EFB132 /* HomeViewController.swift */,
+				7F4870B01F667C0C0012D6B9 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -104,6 +150,8 @@
 		7F9BFDB31F60EA8700EFB132 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F0CD2A61F6773A40022D43C /* CollectionHeaderView.swift */,
+				7F0CD2A71F6773A40022D43C /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +167,8 @@
 		7F9BFDB61F60EAB900EFB132 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7FD28B411F67CF4600190571 /* AnchorGroup.swift */,
+				7FD28B431F67D11D00190571 /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,6 +176,12 @@
 		7F9BFDB71F60EAB900EFB132 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F9BFDBE1F60F7B900EFB132 /* PageTitleView.swift */,
+				7F4870AC1F662D680012D6B9 /* PageContentView.swift */,
+				7F0CD2AA1F677B6E0022D43C /* CollectionNormalCell.swift */,
+				7F0CD2AB1F677B6E0022D43C /* CollectionNormalCell.xib */,
+				7F0CD2AE1F6780640022D43C /* CollectionPrettyCell.swift */,
+				7F0CD2AF1F6780640022D43C /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				7F9BFDBC1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift */,
+				7F4870AE1F662F8C0012D6B9 /* UIColor_Extension.swift */,
+				7FD28B3F1F67CB4300190571 /* NSDate_Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -145,6 +203,8 @@
 				7FC8002A1F5F89C70055B072 /* Douyu_Swift_DemoTests */,
 				7FC800351F5F89C70055B072 /* Douyu_Swift_DemoUITests */,
 				7FC800141F5F89C70055B072 /* Products */,
+				8C86297988F0B9809A384495 /* Pods */,
+				60F6945D42631A55610D6AD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +275,7 @@
 			children = (
 				7F9BFDB21F60EA8700EFB132 /* Model */,
 				7F9BFDB31F60EA8700EFB132 /* View */,
+				7FD28B3C1F67C83200190571 /* ViewModel */,
 				7F9BFDB11F60EA8700EFB132 /* Controller */,
 				7F9BFDA21F60D93200EFB132 /* Home.storyboard */,
 			);
@@ -252,8 +313,27 @@
 			isa = PBXGroup;
 			children = (
 				7F9BFDBB1F60F0C900EFB132 /* Extension */,
+				7F9BFDC01F60F9D500EFB132 /* Common.swift */,
+				7FD28B3A1F67B46900190571 /* NetWorkTools.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		7FD28B3C1F67C83200190571 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FD28B3D1F67C85700190571 /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8C86297988F0B9809A384495 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88349EB0655FE8000455257A /* Pods-Douyu_Swift_Demo.debug.xcconfig */,
+				430F32A72ABBC34C29017B84 /* Pods-Douyu_Swift_Demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +343,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FC8003B1F5F89C70055B072 /* Build configuration list for PBXNativeTarget "Douyu_Swift_Demo" */;
 			buildPhases = (
+				589246D9E78768180AE1BEE3 /* [CP] Check Pods Manifest.lock */,
 				7FC8000F1F5F89C70055B072 /* Sources */,
 				7FC800101F5F89C70055B072 /* Frameworks */,
 				7FC800111F5F89C70055B072 /* Resources */,
+				87511A672241F42A0F2BC9DE /* [CP] Embed Pods Frameworks */,
+				2D064E70A299619B98760FEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,10 +450,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC800211F5F89C70055B072 /* LaunchScreen.storyboard in Resources */,
+				7F0CD2A91F6773A40022D43C /* CollectionHeaderView.xib in Resources */,
+				7F0CD2AD1F677B6E0022D43C /* CollectionNormalCell.xib in Resources */,
 				7FC8001E1F5F89C70055B072 /* Assets.xcassets in Resources */,
 				7FC8001C1F5F89C70055B072 /* Main.storyboard in Resources */,
 				7F9BFDA71F60D97000EFB132 /* Live.storyboard in Resources */,
 				7F9BFDA41F60D93200EFB132 /* Home.storyboard in Resources */,
+				7F0CD2B11F6780640022D43C /* CollectionPrettyCell.xib in Resources */,
 				7F9BFDAC1F60DA1B00EFB132 /* Profile.storyboard in Resources */,
 				7F9BFDAA1F60D9EB00EFB132 /* Follow.storyboard in Resources */,
 			);
@@ -392,15 +478,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D064E70A299619B98760FEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douyu_Swift_Demo/Pods-Douyu_Swift_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589246D9E78768180AE1BEE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87511A672241F42A0F2BC9DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douyu_Swift_Demo/Pods-Douyu_Swift_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FC8000F1F5F89C70055B072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD28B401F67CB4300190571 /* NSDate_Extension.swift in Sources */,
 				7F9BFDBD1F60F10A00EFB132 /* UIBarButtonItem_Extension.swift in Sources */,
+				7F0CD2A81F6773A40022D43C /* CollectionHeaderView.swift in Sources */,
 				7FC800171F5F89C70055B072 /* AppDelegate.swift in Sources */,
+				7FD28B421F67CF4600190571 /* AnchorGroup.swift in Sources */,
+				7F4870B11F667C0C0012D6B9 /* RecommendViewController.swift in Sources */,
+				7F9BFDBF1F60F7B900EFB132 /* PageTitleView.swift in Sources */,
+				7FD28B3B1F67B46900190571 /* NetWorkTools.swift in Sources */,
+				7F4870AF1F662F8C0012D6B9 /* UIColor_Extension.swift in Sources */,
+				7F4870AD1F662D680012D6B9 /* PageContentView.swift in Sources */,
 				7F9BFDB81F60EAB900EFB132 /* MainViewController.swift in Sources */,
+				7F9BFDC11F60F9D500EFB132 /* Common.swift in Sources */,
+				7F0CD2B01F6780640022D43C /* CollectionPrettyCell.swift in Sources */,
+				7F0CD2AC1F677B6E0022D43C /* CollectionNormalCell.swift in Sources */,
 				7F9BFDBA1F60EB1500EFB132 /* HomeViewController.swift in Sources */,
+				7FD28B3E1F67C85700190571 /* RecommendViewModel.swift in Sources */,
+				7FD28B441F67D11D00190571 /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,11 +725,13 @@
 		};
 		7FC8003C1F5F89C70055B072 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88349EB0655FE8000455257A /* Pods-Douyu_Swift_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YD2EDN9H58;
 				INFOPLIST_FILE = Douyu_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy0706.io.Douyu-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -592,11 +741,13 @@
 		};
 		7FC8003D1F5F89C70055B072 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430F32A72ABBC34C29017B84 /* Pods-Douyu_Swift_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YD2EDN9H58;
 				INFOPLIST_FILE = Douyu_Swift_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy0706.io.Douyu-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
