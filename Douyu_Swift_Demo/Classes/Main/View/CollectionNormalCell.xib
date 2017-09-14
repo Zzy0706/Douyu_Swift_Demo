@@ -69,6 +69,12 @@
                 <constraint firstItem="pfF-4b-OCl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wMG-wn-sx4"/>
             </constraints>
             <size key="customSize" width="281" height="235"/>
+            <connections>
+                <outlet property="iconImageView" destination="RnI-wa-PBg" id="JMR-2w-gDY"/>
+                <outlet property="nickNameLabel" destination="6Sq-Hu-Tiq" id="0hE-4W-5IX"/>
+                <outlet property="onlineButton" destination="FV1-1h-7hV" id="5jA-kI-dfp"/>
+                <outlet property="roomNameLabel" destination="Q39-Yb-3y9" id="p7i-0B-z3N"/>
+            </connections>
             <point key="canvasLocation" x="145.5" y="132.5"/>
         </collectionViewCell>
     </objects>

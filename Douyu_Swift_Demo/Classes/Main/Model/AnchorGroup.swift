@@ -31,6 +31,9 @@ class AnchorGroup: NSObject {
         super.init()
         setValuesForKeys(dict)
     }
+    override init(){
+        
+    }
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
         
     }

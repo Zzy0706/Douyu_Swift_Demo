@@ -118,12 +118,15 @@ extension PageTitleView{
         }
         //2.获取之前label
         let oldLabel = titleLabels[currentIndex]
-        
+        if currentLabel.tag == currentIndex{
+            return
+        }
+        //if !currentLabel.isEqual(oldLabel){
+            oldLabel.textColor = UIColor.init(r: kNormarlColor.0, g: kNormarlColor.1, b: kNormarlColor.2)
+        //}
         //3.切换颜色
         currentLabel.textColor = UIColor.init(r: kSelectColor.0, g: kSelectColor.1, b: kSelectColor.2)
-        if !currentLabel.isEqual(oldLabel){
-         oldLabel.textColor = UIColor.init(r: kNormarlColor.0, g: kNormarlColor.1, b: kNormarlColor.2)
-        }
+        
         
         //4.保存新label下标值
         currentIndex = currentLabel.tag

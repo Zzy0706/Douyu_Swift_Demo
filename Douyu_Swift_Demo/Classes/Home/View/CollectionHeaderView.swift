@@ -10,9 +10,22 @@ import UIKit
 
 class CollectionHeaderView: UICollectionReusableView {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    //MARK:控件属性
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var iconImageView: UIImageView!
+    //MARK:定义模型属性
+    var group : AnchorGroup?{
+        
+        didSet{
+            guard let group = group else {
+                iconImageView.image = UIImage.init(named: "home_header_phone")
+                return
+            }
+            titleLabel.text = group.tag_name
+            iconImageView.image = UIImage.init(named: group.icon_name)
+            
+        }
+    }
 }

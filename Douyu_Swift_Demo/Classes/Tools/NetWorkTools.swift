@@ -18,11 +18,11 @@ class NetWorkTools {
         //1.获取类型
         let methodNow : HTTPMethod = type == .GET ? HTTPMethod.get : HTTPMethod.post
         Alamofire.request(URLString, method: methodNow, parameters: parameters, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
-            guard let reult2 = response.result.value else{
+            guard let reult = response.result.value else{
                 print(response.result.error!)
                 return
             }
-            finishedCallback(reult2 as AnyObject)
+            finishedCallback(reult as AnyObject)
         }
         }
     }
